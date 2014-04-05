@@ -1,0 +1,176 @@
+#about-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  background-color: #F5F5F5;
+}
+
+#about-me {
+  width: 54%;
+  padding-top: 30px;
+  float: left;
+}
+
+#about-me h1 {
+  font-family: 'gotham1', 'Helvetica', 'arial', sans-serif;
+  color: #632ab8;
+}
+
+#link {
+  color: #632ab8;
+  font-weight: bolder;
+}
+
+#link:hover {
+  color: #632ab8;
+}
+
+#skills {
+  width: 30%;
+  float: right;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+#skills > h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #565656;
+}
+
+#skills > h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  color: #565656;
+}
+
+#avatar {
+  content: url("../images/avatar.png");
+  width: 30%;
+  height: auto;
+}
+
+#loading-1 {
+  width: 80%;
+  height: 98%;
+  background-color: #632ab8;
+}
+
+#loading-2 {
+  width: 85%;
+  height: 98%;
+  background-color: #632ab8;
+}
+
+#loading-3 {
+  width: 82%;
+  height: 98%;
+  background-color: #632ab8;
+}
+
+#loading-4 {
+  width: 60%;
+  height: 98%;
+  background-color: #632ab8;
+}
+
+.animated slideInLeft {
+  -webkit-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+}
+
+@media screen and (min-width: 200px)   {
+    #about-me {
+  width: 80%;
+  padding-top: 30px;
+  float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    #about-container {height: 900px;
+}
+    
+    #skills 
+    {
+  width: 80%;
+  float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{text-align: left}
+    
+}
+
+@media screen and (min-width: 700px)   {
+    
+#about-me {
+  width: 80%;
+  padding-top: 30px;
+  float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    #about-container {height: 900px;
+}
+    
+    #skills 
+    {
+  width: 80%;
+  float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{text-align: left}
+    
+}
+
+@media screen and (min-width: 900px)   {
+    
+#about-me {
+  width: 54%;
+  padding-top: 30px;
+  float: left;
+}
+    
+    #about-container {height: 550px;
+}
+    #skills
+    {
+  width: 30%;
+  float: right;
+    }
+    p{text-align: justify}
+    
+}
+
+
+
+
+@media screen and (min-width: 1300px)   {
+    
+   #about-me {
+  width: 54%;
+  padding-top: 30px;
+  float: left;
+}
+    
+    #about-container {height: 550px;
+}
+    #skills {
+  width: 30%;
+  float: right;}
+    
+    p{text-align: justify}
+    
+}
