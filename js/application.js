@@ -73,3 +73,13 @@ function listenScroll() {
     }
   });
 };
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 700) {
+        $(".container-body").addClass("container-body-hidden");
+    } else {
+        $(".container-body").removeClass("container-body-hidden");
+    }
+});

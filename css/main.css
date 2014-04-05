@@ -8,9 +8,20 @@ html {
   height: 100%;
 }
 
-.container-body {
+.container-2 {
   height: 100%;
   background-color: transparent;
+}
+
+.container-body {
+  width: 100%;
+    height: 100%;
+  background-color: transparent;
+    position: fixed;
+}
+
+.container-body-hidden {
+ display: none;
 }
 
 a   {color: #565656;}
