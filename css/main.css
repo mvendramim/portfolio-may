@@ -8,7 +8,7 @@ html {
   height: 100%;
 }
 
-.container-2 {
+.container-home {
   height: 100%;
   background-color: transparent;
 }
@@ -21,6 +21,7 @@ html {
 }
 
 .container-body-hidden {
+    -webkit-animation-name: fadeOut;
  display: none;
 }
 
