@@ -57,12 +57,15 @@ function sliderInit() {
 
 function listenScroll() {
   var $nav = $('.navbar');
-  var eTop = $('#wrapper-home').offset().top;
-  var calculatedTop = eTop - $(window).scrollTop()
-  console.log(eTop);
+  var $wrapperHome = $('#wrapper-home');
+  var eTop = $wrapperHome.offset().top;
+  var calculatedTop = eTop - $(window).scrollTop();
+  var $home = $("#home");
+  var $containerBody = $(".container-body");
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > calculatedTop) {
+  	var homeHeight = $home.height();
+    if ($(this).scrollTop() > homeHeight/3) {
       $nav.addClass("hidden-no");
       $nav.addClass("fadeInDown");
       $nav.removeClass("fadeOutUp");
@@ -71,17 +74,15 @@ function listenScroll() {
       $nav.removeClass("fadeInDown");
       $nav.addClass("fadeOutUp");
     }
-  });
-};
 
-$(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
     if (scroll >= 600) {
-        $(".container-body").addClass("container-body-hidden");
+        $containerBody.addClass("container-body-hidden");
     } else {
-        $(".container-body").removeClass("container-body-hidden");
+        $containerBody.removeClass("container-body-hidden");
     }
-});
 
+  });
+};
 
