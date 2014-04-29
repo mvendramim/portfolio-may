@@ -14,8 +14,8 @@
     <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/jquery.stellar.min.js" type="text/javascript" charset="utf-8"></script>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
-    <script src="vendor/jquery.nav.js"></script>
-    <script src="vendor/carousel.js"></script>
+    <script src="vendor/jquery.nav.js"></script> 
+    <script src="vendor/carousel.js"></script> 
 
     <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
 
@@ -56,34 +56,26 @@
     </div>
 
     <div class="container-home" id="home">
-        <div class="container-body">
+    <div class="container-body">
+        
 
-
-
-
-            <div id="logo-home"></div>
-            <div class="menu-item home-mobile hidden-lg hidden-md hidden-sm">
-                <a href="#work">WORK</a>
-                <div class="menu-item home-mobile hidden-lg hidden-md hidden-sm">
+        <div id="logo-home"></div>
+        <div id="wrapper-home">
+            <div class="wrapper-division-left">
+                <div class="menu-item" id="item-left">
+                    <a href="#work">WORK</a>
+                </div>
+            </div>
+            <div class="wrapper-division-center">
+                <div class="animated bounceInDown" id="arrow"></div>
+            </div>
+            <div class="wrapper-division-right">
+                <div class="menu-item" id="item-right">
                     <a href="#about">ABOUT</a>
                 </div>
             </div>
-            <div id="wrapper-home" class="hidden-xs">
-                <div class="wrapper-division-left">
-                    <div class="menu-item" id="item-left">
-                        <a href="#work">WORK</a>
-                    </div>
-                </div>
-                <div class="wrapper-division-center">
-                    <div class="animated bounceInDown hidden-xs" id="arrow"></div>
-                </div>
-                <div class="wrapper-division-right">
-                    <div class="menu-item" id="item-right">
-                        <a href="#about">ABOUT</a>
-                    </div>
-                </div>
-            </div>
         </div>
+            </div>
     </div>
 
 
@@ -102,555 +94,514 @@
 
             <div class="tab-content">
                 <div class="tab-pane active fade in work-items-container animated fadeInDown" id="all">
-                    <a class="work-item ipad-magazine" data-toggle="tab" href="#ipad-magazine">
-                        <div class="overlay">Ipad Magazine</div>
-                    </a>
-                    <a class="work-item traveling-microsite" data-toggle="tab" data-toggle="tab" href="#traveling-microsite">
-                        <div class="overlay">Travel Microsite</div>
-                    </a>
-                    <a class="work-item branding-restaurant" data-toggle="tab" href="#branding-restaurant">
-                        <div class="overlay">Restaurant Branding Guidelines</div>
-                    </a>
-                    <a class="work-item typographic-poster" data-toggle="tab" href="#typographic-poster">
-                        <div class="overlay">Typographic Poster</div>
-                    </a>
-                    <a class="work-item bioshock" data-toggle="tab" href="#bioshock">
-                        <div class="overlay">Travel Microsite</div>
-                    </a>
-                    <a class="work-item layout-printed-book" data-toggle="tab" href="#layout-printed-book">
-                        <div class="overlay">Printed Book</div>
-                    </a>
+                    <a class="work-item ipad-magazine" data-toggle="tab" href="#ipad-magazine"><div class="overlay">Ipad Magazine</div></a>
+                    <a class="work-item traveling-microsite" data-toggle="tab" data-toggle="tab" href="#traveling-microsite"><div class="overlay">Travel Microsite</div></a>
+                    <a class="work-item branding-restaurant" data-toggle="tab" href="#branding-restaurant"><div class="overlay">Restaurant Branding Guidelines</div></a>
+                    <a class="work-item typographic-poster" data-toggle="tab" href="#typographic-poster"><div class="overlay">Typographic Poster</div></a>
+                    <a class="work-item bioshock" data-toggle="tab" href="#bioshock"><div class="overlay">Travel Microsite</div></a>
+                    <a class="work-item layout-printed-book" data-toggle="tab" href="#layout-printed-book"><div class="overlay">Printed Book</div></a>
 
                 </div>
                 <div class="tab-pane fade work-items-container animated fadeInDown" id="digital">
-                    <a class="work-item ipad-magazine" data-toggle="tab" href="#ipad-magazine">
-                        <div class="overlay">Ipad Magazine</div>
-                    </a>
-                    <a class="work-item traveling-microsite" data-toggle="tab" data-toggle="tab" href="#traveling-microsite">
-                        <div class="overlay">Travel Microsite</div>
-                    </a>
+                    <a class="work-item ipad-magazine" data-toggle="tab" href="#ipad-magazine"><div class="overlay">Ipad Magazine</div></a>
+                    <a class="work-item traveling-microsite" data-toggle="tab" data-toggle="tab" href="#traveling-microsite"><div class="overlay">Travel Microsite</div></a>
                 </div>
                 <div class="tab-pane fade work-items-container animated fadeInDown" id="print">
-                    <a class="work-item branding-restaurant" data-toggle="tab" href="#branding-restaurant">
-                        <div class="overlay">CD Package</div>
-                    </a>
-                    <a class="work-item typographic-poster" data-toggle="tab" href="#typographic-poster">
-                        <div class="overlay">Typographic Poster</div>
-                    </a>
-                    <a class="work-item bioshock" data-toggle="tab" href="#bioshock">
-                        <div class="overlay">Travel Microsite</div>
-                    </a>
-                    <a class="work-item layout-printed-book" data-toggle="tab" href="#layout-printed-book">
-                        <div class="overlay">Travel Microsite</div>
-                    </a>
+                    <a class="work-item branding-restaurant" data-toggle="tab" href="#branding-restaurant"><div class="overlay">CD Package</div></a>
+                    <a class="work-item typographic-poster" data-toggle="tab" href="#typographic-poster"></a>
+                    <a class="work-item bioshock" data-toggle="tab" href="#bioshock"><div class="overlay">Travel Microsite</div></a>
+                    <a class="work-item layout-printed-book" data-toggle="tab" href="#layout-printed-book"><div class="overlay">Travel Microsite</div></a>
                 </div>
 
                 <div class="tab-pane fade animated fadeInDown work-item-detail" id="ipad-magazine">
-                    <div class="work-item-gallery">
-                        <div id="carousel-ipad-magazine" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="1"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="2"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="3"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="4"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="5"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="6"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="7"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="8"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="9"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="10"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="11"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="12"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="13"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="14"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="15"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="16"></li>
-                                <li data-target="#carousel-ipad-magazine" data-slide-to="17"></li>
+                <div class="work-item-gallery">
+                    <div id="carousel-ipad-magazine" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="1"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="2"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="3"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="4"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="5"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="6"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="7"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="8"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="9"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="10"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="11"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="12"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="13"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="14"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="15"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="16"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="17"></li>
 
-                            </ol>
+                    </ol>
 
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="http://i.imgur.com/YxyqmxR.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/0UujIUN.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/iJrmMGM.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/CtfIm5X.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/AadZotH.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/alUMZpQ.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/dzCBBzd.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/Sd6RwpD.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/AjMiBzM.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/EP2Mn7k.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/UZFV27k.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/rBhtK0n.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/ABvPmzq.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/KuEPxPi.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/8LZOH7D.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/ziiKLZY.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/GULdmIO.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/2b41eYS.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/YxyqmxR.jpg" alt="">
+                            <div class="carousel-caption">
+                                
                             </div>
-
-                            <a class="left carousel-control" href="#carousel-ipad-magazine" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-ipad-magazine" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
                         </div>
-                    </div>
-                    <!-- work-item-gallery -->
-                    <div class="work-item-description animated bounceIn">
-                        <h1>Ipad Magazine</h1>
-                        <p>This work was made in the Interaction Design class of the Graphic Design BFA at SUNY New Paltz. The goal was to create an interactive reading experience on the iPad for a non-fiction publication using the Adobe Publishing Suite. My choice was to do a travel guide to my hometown. It’s a work in progress.</p>
-                    </div>
-                    <!-- work-item-description -->
-                    <div style="clear:both"></div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/0UujIUN.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/iJrmMGM.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/CtfIm5X.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/AadZotH.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/alUMZpQ.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/dzCBBzd.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/Sd6RwpD.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/AjMiBzM.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/EP2Mn7k.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/UZFV27k.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/rBhtK0n.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/ABvPmzq.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/KuEPxPi.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/8LZOH7D.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/ziiKLZY.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/GULdmIO.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/2b41eYS.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                </div>
+
+                <a class="left carousel-control" href="#carousel-ipad-magazine" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-ipad-magazine" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description animated bounceIn">
+                    <h1>Ipad Magazine</h1>
+                    <p>This work was made in the Interaction Design class of the Graphic Design BFA at SUNY New Paltz. The goal was to create an interactive reading experience on the iPad for a non-fiction publication using the Adobe Publishing Suite. My choice was to do a travel guide to my hometown. It’s a work in progress. </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
                 </div>
                 <div class="tab-pane fade animated fadeInDown work-item-detail" id="traveling-microsite">
-                    <div class="work-item-gallery">
-                        <div id="carousel-traveling-microsite" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-traveling-microsite" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-traveling-microsite" data-slide-to="1"></li>
-                                <li data-target="#carousel-traveling-microsite" data-slide-to="2"></li>
-                                <li data-target="#carousel-traveling-microsite" data-slide-to="3"></li>
+                <div class="work-item-gallery">
+                    <div id="carousel-traveling-microsite" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-traveling-microsite" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-traveling-microsite" data-slide-to="1"></li>
+                        <li data-target="#carousel-traveling-microsite" data-slide-to="2"></li>
+                        <li data-target="#carousel-traveling-microsite" data-slide-to="3"></li>
 
-                            </ol>
+                    </ol>
 
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="http://i.imgur.com/bb7Ua3E.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/gPs96rI.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/1IjZjVO.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/crRInKR.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/bb7Ua3E.jpg" alt="">
+                            <div class="carousel-caption">
+                                
                             </div>
-
-                            <a class="left carousel-control" href="#carousel-traveling-microsite" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-traveling-microsite" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
                         </div>
-                    </div>
-                    <!-- work-item-gallery -->
-                    <div class="work-item-description animated bounceIn">
-                        <h1>Traveling Microsite</h1>
-                        <p>This work was made in the Web Design class of the Graphic Design BFA at SUNY New Paltz. The objective was to design and develop a microsite for a travel destination using CSS, HTML and Javascript. You can see the live version
-                            <a href="http://npzweb.com/mlino/project1/" target="_blank" id="link">here</a>.
-                        </p>
-                    </div>
-                    <!-- work-item-description -->
-                    <div style="clear:both"></div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/gPs96rI.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/1IjZjVO.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/crRInKR.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-traveling-microsite" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-traveling-microsite" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description animated bounceIn">
+                    <h1>Traveling Microsite </h1>
+                    <p>This work was made in the Web Design class of the Graphic Design BFA at SUNY New Paltz. The objective was to design and develop a microsite for a travel destination using CSS, HTML and Javascript. You can see the live version <a href="http://npzweb.com/mlino/project1/" target="_blank" id="link">here</a>.
+ </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
                 </div>
 
                 <div class="tab-pane fade animated fadeInDown work-item-detail" id="branding-restaurant">
-                    <div class="work-item-gallery">
-                        <div id="carousel-branding-restaurant" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-branding-restaurant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-branding-restaurant" data-slide-to="1"></li>
-                                <li data-target="#carousel-branding-restaurant" data-slide-to="2"></li>
-                                <li data-target="#carousel-branding-restaurant" data-slide-to="3"></li>
-                                <li data-target="#carousel-branding-restaurant" data-slide-to="4"></li>
-                                <li data-target="#carousel-branding-restaurant" data-slide-to="5"></li>
-                                <li data-target="#carousel-branding-restaurant" data-slide-to="6"></li>
+                <div class="work-item-gallery">
+                    <div id="carousel-branding-restaurant" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="1"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="2"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="3"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="4"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="5"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="6"></li>
 
-                            </ol>
+                    </ol>
 
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="http://i.imgur.com/KMF5b2x.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/Pe4W7uq.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/1GbqD39.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/Uj2Is0n.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/DITnFjc.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/JyzQmFh.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/shvhaL7.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/KMF5b2x.jpg" alt="">
+                            <div class="carousel-caption">
+                                
                             </div>
-
-                            <a class="left carousel-control" href="#carousel-branding-restaurant" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-branding-restaurant" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
                         </div>
-                    </div>
-                    <!-- work-item-gallery -->
-                    <div class="work-item-description animated bounceIn">
-                        <h1>Branding</h1>
-                        <p>This work was made in the Project class of the Graphic Design BFA at Federal Technological University of Paraná. The goal was to project the branding guidelines of a fictional restaurant. It is inspired by the movie Pulp Fiction.</p>
-                    </div>
-                    <!-- work-item-description -->
-                    <div style="clear:both"></div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/Pe4W7uq.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/1GbqD39.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/Uj2Is0n.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/DITnFjc.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/JyzQmFh.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/shvhaL7.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-branding-restaurant" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-branding-restaurant" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description animated bounceIn">
+                    <h1>Branding</h1>
+                    <p>This work was made in the Project class of the Graphic Design BFA at Federal Technological University of Paraná. The goal was to project the branding guidelines of a fictional restaurant. It is inspired by the movie Pulp Fiction. </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
                 </div>
 
                 <div class="tab-pane fade animated fadeInDown work-item-detail" id="typographic-poster">
-                    <div class="work-item-gallery">
-                        <div id="carousel-typographic-poster" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-typographic-poster" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-typographic-poster" data-slide-to="1"></li>
-                                <li data-target="#carousel-typographic-poster" data-slide-to="2"></li>
-                                <li data-target="#carousel-typographic-poster" data-slide-to="3"></li>
+                <div class="work-item-gallery">
+                    <div id="carousel-typographic-poster" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-typographic-poster" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-typographic-poster" data-slide-to="1"></li>
+                        <li data-target="#carousel-typographic-poster" data-slide-to="2"></li>
+                        <li data-target="#carousel-typographic-poster" data-slide-to="3"></li>
 
-                            </ol>
+                    </ol>
 
-                            <div class="carousel-inner">
-                                <div class="item active animated bounceIn">
-                                    <img src="http://i.imgur.com/reTDbTu.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item animated bounceIn">
-                                    <img src="http://i.imgur.com/0d6axJk.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item animated bounceIn">
-                                    <img src="http://i.imgur.com/pgZJFI1.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item animated bounceIn">
-                                    <img src="http://i.imgur.com/8V4V03W.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-
+                    <div class="carousel-inner">
+                        <div class="item active animated bounceIn">
+                        <img src="http://i.imgur.com/reTDbTu.jpg" alt="">
+                            <div class="carousel-caption">
+                                
                             </div>
-
-                            <a class="left carousel-control" href="#carousel-typographic-poster" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-typographic-poster" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
                         </div>
-                    </div>
-                    <!-- work-item-gallery -->
-                    <div class="work-item-description animated bounceIn">
-                        <h1>Typographic Poster</h1>
-                        <p>This poster was made in the Typography class of the Graphic Design BFA at SUNY New Paltz. The goal was to design a poster based on a type designer. In my case, the chosen one was Jonathan Hoefler from Hoefler & Co. and I decided to use only typographic elements from his font families on it.</p>
-                    </div>
-                    <!-- work-item-description -->
-                    <div style="clear:both"></div>
+                        <div class="item animated bounceIn">
+                        <img src="http://i.imgur.com/0d6axJk.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item animated bounceIn">
+                        <img src="http://i.imgur.com/pgZJFI1.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item animated bounceIn">
+                        <img src="http://i.imgur.com/8V4V03W.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+
+                </div>
+
+                <a class="left carousel-control" href="#carousel-typographic-poster" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-typographic-poster" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description animated bounceIn">
+                    <h1>Typographic Poster</h1>
+                    <p>This poster was made in the Typography class of the Graphic Design BFA at SUNY New Paltz. The goal was to design a poster based on a type designer. In my case, the chosen one was Jonathan Hoefler from Hoefler & Co. and I decided to use only typographic elements from his font families on it. </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
                 </div>
 
                 <div class="tab-pane fade animated fadeInDown work-item-detail" id="bioshock">
-                    <div class="work-item-gallery">
-                        <div id="carousel-bioshock" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-bioshock" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-bioshock" data-slide-to="1"></li>
+                <div class="work-item-gallery">
+                    <div id="carousel-bioshock" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-bioshock" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-bioshock" data-slide-to="1"></li>
 
-                            </ol>
+                    </ol>
 
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="images/bioshock1.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="images/bioshock2.jpg" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="images/bioshock1.jpg" alt="">
+                            <div class="carousel-caption">
+                                
                             </div>
-
-                            <a class="left carousel-control" href="#carousel-bioshock" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-bioshock" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
                         </div>
-                    </div>
-                    <!-- work-item-gallery -->
-                    <div class="work-item-description animated bounceIn">
-                        <h1>CD Package</h1>
-                        <p>This work was made in the Graphic Design class of the Graphic Design BFA at Federal Technological University of Paraná. The objective was to make a CD or DVD cover for a band, movie or game.</p>
-                    </div>
-                    <!-- work-item-description -->
-                    <div style="clear:both"></div>
+                        <div class="item">
+                        <img src="images/bioshock2.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-bioshock" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-bioshock" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description animated bounceIn">
+                    <h1>CD Package</h1>
+                    <p>This work was made in the Graphic Design class of the Graphic Design BFA at Federal Technological University of Paraná. The objective was to make a CD or DVD cover for a band, movie or game. </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
                 </div>
 
                 <div class="tab-pane fade animated fadeInDown work-item-detail" id="layout-printed-book">
-                    <div class="work-item-gallery">
-                        <div id="carousel-layout-printed-book" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-layout-printed-book" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-layout-printed-book" data-slide-to="1"></li>
-                                <li data-target="#carousel-layout-printed-book" data-slide-to="2"></li>
-                                <li data-target="#carousel-layout-printed-book" data-slide-to="3"></li>
-                                <li data-target="#carousel-layout-printed-book" data-slide-to="4"></li>
+                <div class="work-item-gallery">
+                    <div id="carousel-layout-printed-book" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="1"></li>
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="2"></li>
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="3"></li>
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="4"></li>
 
-                            </ol>
+                    </ol>
 
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="http://i.imgur.com/l3qidW5.png" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/6a6BMkQ.png" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/Bhxbsrr.png" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <img src="http://i.imgur.com/4wlRWtF.png" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/adhsXSC.png" alt="">
-                                    <div class="carousel-caption">
-
-                                    </div>
-                                </div>
-
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/l3qidW5.png" alt="">
+                            <div class="carousel-caption">
+                                
                             </div>
-
-                            <a class="left carousel-control" href="#carousel-layout-printed-book" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-layout-printed-book" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
                         </div>
-                    </div>
-                    <!-- work-item-gallery -->
-                    <div class="work-item-description animated bounceIn">
-                        <h1>Printed Book Project</h1>
-                        <p>This book was made in the Graphic Design class of the Graphic Design BFA at Federal Technological University of Paraná. The main goal was to make its guideline, but also to understand mor about books’ layout and printing.</p>
-                    </div>
-                    <!-- work-item-description -->
-                    <div style="clear:both"></div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/6a6BMkQ.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/Bhxbsrr.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+
+                        <div class="item">
+                        <img src="http://i.imgur.com/4wlRWtF.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/adhsXSC.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-layout-printed-book" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-layout-printed-book" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description animated bounceIn">
+                    <h1>Printed Book Project</h1>
+                    <p>This book was made in the Graphic Design class of the Graphic Design BFA at Federal Technological University of Paraná. The main goal was to make its guideline, but also to understand mor about books’ layout and printing. </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
                 </div>
             </div>
+        </div>             
+    </div>
+
+
+</div>
+
+</div>
+
+<div class="container-body-redimensionable" id="about">
+
+    <div class="content-separator"></div>
+
+    <div id="about-container">
+        <div id="container-description">
+        <div id="about-me">
+            <div id="avatar"></div>
+            <h1>Hi, my name is Mayra Vendramim!</h1><p>I am a brazilian Graphic Design student who is Currently living and studying in New York. I like to learn. I'm really into Interaction Design and Interfaces and my goal is to be an expert on this area.</p>
+            <p>If you liked my works, download my resumé <a href="resume-internship.pdf" id="link" target="_blank">here</a>.You can also mail me at <a href="mailto:may.vendramim@gmail.com" id="link">may.vendramim@gmail.com</a>.</p>
         </div>
-    </div>
-
-
-    </div>
-
-    </div>
-
-    <div class="container-body-redimensionable" id="about">
-
-        <div class="content-separator"></div>
-
-        <div id="about-container">
-            <div id="container-description">
-                <div id="about-me">
-                    <div id="avatar"></div>
-                    <h1>Hi, my name is Mayra Vendramim!</h1>
-                    <p>I am a brazilian Graphic Design student who is Currently living and studying in New York. I like to learn. I'm really into Interaction Design and Interfaces and my goal is to be an expert on this area.</p>
-                    <p>If you liked my works, download my resumé
-                        <a href="resume-internship.pdf" id="link" target="_blank">here</a>.You can also mail me at
-                        <a href="mailto:may.vendramim@gmail.com" id="link">may.vendramim@gmail.com</a>.</p>
-                </div>
             </div>
-            <div id="skills">
-                <h4>Skills</h4>
+        <div id="skills"><h4>Skills</h4>
 
-                <h5>Adobe Photoshop</h5>
+            <h5>Adobe Photoshop</h5>
 
-                <div class="progress">
+            <div class="progress">
 
-                    <div id="loading-1" class="loading"></div>
-
-                </div>
-
-                <h5>Adobe Illustrator</h5>
-                <div class="progress">
-
-                    <div id="loading-2" class="loading"></div>
-
-                </div>
-                <h5>Adobe Indesign</h5>
-                <div class="progress">
-
-                    <div id="loading-3" class="loading"></div>
-
-                </div>
-                <h5>HTML/CSS</h5>
-                <div class="progress">
-
-                    <div id="loading-4" class="loading"></div>
-
-                </div>
-
+                <div id="loading-1" class="loading"></div>
 
             </div>
 
+            <h5>Adobe Illustrator</h5>
+            <div class="progress">
+
+                <div id="loading-2" class="loading"></div>
+
+            </div>
+            <h5>Adobe Indesign</h5>
+            <div class="progress">
+
+                <div id="loading-3" class="loading"></div>
+
+            </div>
+            <h5>HTML/CSS</h5>
+            <div class="progress">
+
+                <div id="loading-4" class="loading"></div>
+
+            </div>
+            
+            
         </div>
+
+    </div>
 
 
 </body>
