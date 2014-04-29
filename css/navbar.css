@@ -113,6 +113,16 @@
         
     }
     
+    .work-item {
+        
+  margin-right: auto;
+        margin-left: auto;
+  margin-bottom: 30px;
+  display: block;
+    }
+    
+}
+    
   
 
 @media screen and (min-width: 700px)   {
@@ -161,6 +171,13 @@
         
     }
     
+    .work-item {
+        
+  margin-right: 30px;
+  margin-bottom: 30px;
+  display: inline-table;
+    }
+    
 }
 
 
@@ -186,5 +203,12 @@
     .navbar {
         height: 70px;
         
+    }
+    
+    .work-item {
+        
+  margin-right: 30px;
+  margin-bottom: 30px;
+  display: inline-table;
     }
 }

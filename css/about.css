@@ -1,20 +1,27 @@
 #about-container {
-  padding-left: 10%;
+  width: 100%;
+    padding-left: 10%;
   padding-right: 10%;
-  position: relative;
+    padding-bottom: 30px;
+  position: absolute;
   background-color: #F5F5F5;
+    min-height: 86%;
+    bottom: 0px;
+}
 }
 
 #about-me {
-  width: 54%;
-  padding-top: 30px;
-  float: left;
+  width: 100%;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about-me h1 {
   font-family: 'gotham1', 'Helvetica', 'arial', sans-serif;
   color: #632ab8;
 }
+
 
 #link {
   color: #632ab8;
@@ -25,12 +32,22 @@
   color: #632ab8;
 }
 
+#container-description  {
+    
+    
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 #skills {
-  width: 30%;
-  float: right;
-  position: relative;
+  width: 80%;
+    max-width: 750px;
   padding-top: 30px;
   padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #skills > h5 {
@@ -50,6 +67,11 @@
   content: url("../images/avatar.png");
   width: 30%;
   height: auto;
+}
+
+.progress   {
+    
+    max-width: 500px;
 }
 
 #loading-1 {
@@ -88,89 +110,3 @@
   -moz-animation-iteration-count: infinite;
 }
 
-@media screen and (min-width: 200px)   {
-    #about-me {
-  width: 80%;
-  padding-top: 30px;
-  float: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-    #about-container {height: 900px;
-}
-    
-    #skills 
-    {
-  width: 80%;
-  float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    p{text-align: left}
-    
-}
-
-@media screen and (min-width: 700px)   {
-    
-#about-me {
-  width: 80%;
-  padding-top: 30px;
-  float: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-    #about-container {height: 900px;
-}
-    
-    #skills 
-    {
-  width: 80%;
-  float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    p{text-align: left}
-    
-}
-
-@media screen and (min-width: 900px)   {
-    
-#about-me {
-  width: 54%;
-  padding-top: 30px;
-  float: left;
-}
-    
-    #about-container {height: 550px;
-}
-    #skills
-    {
-  width: 30%;
-  float: right;
-    }
-    p{text-align: justify}
-    
-}
-
-
-
-
-@media screen and (min-width: 1300px)   {
-    
-   #about-me {
-  width: 54%;
-  padding-top: 30px;
-  float: left;
-}
-    
-    #about-container {height: 550px;
-}
-    #skills {
-  width: 30%;
-  float: right;}
-    
-    p{text-align: justify}
-    
-}

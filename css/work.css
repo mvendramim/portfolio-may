@@ -3,13 +3,21 @@
 }
 
 #work-container {
-  padding-left: 10%;
+  width: 100%;
+    padding-left: 10%;
   padding-right: 10%;
     padding-bottom: 30px;
-  position: relative;
+  position: absolute;
   background-color: #F5F5F5;
-  height: 100%;
+    min-height: 86%;
+    bottom: 0px;
 }
+
+.tab-pane    {
+
+    max-height:1000px; ;
+}
+
 
 .content-separator {
   height: 100px;
@@ -63,18 +71,30 @@
 
 .work-items-container {
   position: relative;
-    max-width: 900px;
+    max-width: 1000px;
     min-height: 400px;
 }
 
 .work-item {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   background-color: gray;
+    color: #F5F5F5;
   margin-right: 30px;
   margin-bottom: 30px;
   position: relative;
   display: inline-table;
+    font-family: 'gotham1';
+    font-size: 24px;
+    text-decoration: none;
+    
+    
+}
+.work-item:hover {
+    
+    color: #F5F5F5;
+    text-decoration: none;
+
 }
 
 .container-body-redimensionable {
@@ -116,35 +136,135 @@
   color: #565656;
 }
 
-.pejama {
-  background-image: url(../images/pejama.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+
+.overlay    {
+
+    background-color: rgba(99,42,184,0.5);
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+}
+
+.overlay:hover    {
+
+    background-color: rgba(99,42,184,0.5);
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+    opacity: 100;
 }
 
 .work-item.ipad-magazine {
-  background-image: url("http://i.imgur.com/2Yxuis6.jpg");
+  background-image: url("http://i.imgur.com/ABvPmzq.jpg");
+background-size: 300px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+
+}
+.work-item.ipad-magazine:hover {
+    background-size: 400px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
 
 }
 
 .work-item.traveling-microsite {
-  background-image: url("http://i.imgur.com/DWCC3zy.jpg");
-
+  background-image: url("http://i.imgur.com/1IjZjVO.jpg");
+    background-size: 400px;
+    background-position: center bottom;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
 }
 
+.work-item.traveling-microsite:hover {
+    background-size: 500px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+    
+}
 .work-item.branding-restaurant {
-  background-image: url("http://i.imgur.com/6kOGFnY.jpg");
+  background-image: url("http://i.imgur.com/Pe4W7uq.jpg");
+    background-size: 400px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
   
+}
+
+.work-item.branding-restaurant:hover {
+    background-size: 500px;
 }
 .work-item.typographic-poster {
-  background-image: url("http://i.imgur.com/PzFulI5.jpg");
+  background-image: url("http://i.imgur.com/pgZJFI1.jpg");
+    background-size: 400px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
   
+}
+
+.work-item.typographic-poster:hover {
+    background-size: 500px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
 }
 .work-item.bioshock {
-  background-image: url("http://i.imgur.com/ShUUufw.jpg");
+  background-image: url("../images/bioshock1.jpg");
+    background-size: 400px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
   
 }
+
+.work-item.bioshock:hover {
+    background-size: 500px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+}
+
 .work-item.layout-printed-book {
-  background-image: url("http://i.imgur.com/Smh4mgy.jpg");
+    background-image: url("http://i.imgur.com/l3qidW5.png");
+    background-size: 400px;
+    background-position: right top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
   
+}
+
+.work-item.layout-printed-book:hover {
+    background-size: 500px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+}
 }
