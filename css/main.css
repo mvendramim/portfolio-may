@@ -32,7 +32,7 @@ p {
   font-size: 18px;
   color: #565656;
   font-weight: lighter;
-  text-align: justify;
+  text-align: left;
 }
 
 #home {
@@ -88,7 +88,6 @@ p {
 
 .menu-item > a:hover {
   text-decoration: none;
-  font-size: 80px;
   background-color: rgba(99,42,184,0.8);
   -o-transition: 2s;
   -ms-transition: .2;
