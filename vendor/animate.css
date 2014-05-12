@@ -2489,18 +2489,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -webkit-transform: translateX(-2000px);
     -ms-transform: translateX(-2000px);
     transform: translateX(-2000px);
+    animation-duration: 2s;
   }
 
   100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
+    animation-delay: 5s;
+    animation-duration: 2s;
   }
 }
 
 .slideInLeft {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
+  animation-delay: 5s;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes slideInRight {
