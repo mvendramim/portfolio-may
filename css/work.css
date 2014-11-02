@@ -161,6 +161,25 @@
     opacity: 100;
 }
 
+.work-item.pet-cupid {
+  background-image: url("http://i.imgur.com/LGg8pa0.png");
+background-size: 300px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+
+}
+.work-item.pet-cupid:hover {
+    background-size: 350px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+
+}
+
 .work-item.ipad-magazine {
   background-image: url("http://i.imgur.com/ABvPmzq.jpg");
 background-size: 300px;
