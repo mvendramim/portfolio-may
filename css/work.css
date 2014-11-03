@@ -162,9 +162,9 @@
 }
 
 .work-item.pet-cupid {
-  background-image: url("http://i.imgur.com/LGg8pa0.png");
+  background-image: url("http://i.imgur.com/JtRh9HI.png");
 background-size: 300px;
-    background-position: center top;
+    background-position: left top;
     -o-transition: all 0.60s ease;
    -ms-transition: all 0.60s ease;
    -moz-transition: all 0.60s ease;
@@ -199,17 +199,17 @@ background-size: 300px;
 
 }
 
-.work-item.traveling-microsite {
-  background-image: url("http://i.imgur.com/1IjZjVO.jpg");
+.work-item.exposure {
+  background-image: url("http://i.imgur.com/9pPJmnO.png");
     background-size: 400px;
-    background-position: center bottom;
+    background-position: center top;
     -o-transition: all 0.60s ease;
    -ms-transition: all 0.60s ease;
    -moz-transition: all 0.60s ease;
    -webkit-transition: all 0.60s ease;
 }
 
-.work-item.traveling-microsite:hover {
+.work-item.exposure:hover {
     background-size: 450px;
     -o-transition: all 0.60s ease;
    -ms-transition: all 0.60s ease;
